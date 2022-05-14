@@ -1,0 +1,13 @@
+
+body{
+  margin: 0;
+}
+#canvas {
+  margin: 20px;
+  background-image: url('/img/village.gif');
+  border: 3px solid darkblue;
+  width: 1000px;
+  height: 380px;
+}
+
+

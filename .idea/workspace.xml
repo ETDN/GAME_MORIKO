@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe1f1aa4-7db1-40b3-83da-4dd5e788dc0b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27QP14DoGx2TRtTgbop3FKTK5Nb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moriko(mdb5.3.11.0)" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="ts.external.directory.path" value="C:\Users\etdnp\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\moriko(mdb5.3.11.0)" />
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\MDB5-3.11.0\img" />
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\moriko\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\moriko(mdb5.3.11.0)\img" />
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\moriko(mdb5.3.11.0)" />
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET" />
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\moriko(mdb5.3.11.0)\css\mdb" />
+      <recent name="C:\Users\etdnp\OneDrive - HESSO\Semestre 4 2022-2023 Emilie\RIA PROJET\MDB5-3.11.0\audio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.level1.js">
+    <configuration name="game_forest_map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/moriko(mdb5.3.11.0)/maps/game_forest_map.js" working-dir="$PROJECT_DIR$/moriko(mdb5.3.11.0)/maps">
+      <method v="2" />
+    </configuration>
+    <configuration name="level1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/moriko(mdb5.3.11.0)/level1.js" working-dir="$PROJECT_DIR$/moriko(mdb5.3.11.0)">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.level1.js" />
+        <item itemvalue="Node.js.game_forest_map.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe1f1aa4-7db1-40b3-83da-4dd5e788dc0b" name="Changes" comment="" />
+      <created>1649249120813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649249120813</updated>
+      <workItem from="1649249123734" duration="432000" />
+      <workItem from="1649314385552" duration="1899000" />
+      <workItem from="1649338462407" duration="660000" />
+      <workItem from="1649402971744" duration="8000" />
+      <workItem from="1649407505030" duration="1000" />
+      <workItem from="1649533795349" duration="5443000" />
+      <workItem from="1649580328568" duration="69000" />
+      <workItem from="1649599707490" duration="13018000" />
+      <workItem from="1649620547996" duration="1132000" />
+      <workItem from="1649662963115" duration="3065000" />
+      <workItem from="1649669075135" duration="598000" />
+      <workItem from="1649841677910" duration="24000" />
+      <workItem from="1649842145787" duration="4000" />
+      <workItem from="1649851375793" duration="1158000" />
+      <workItem from="1649933431971" duration="2062000" />
+      <workItem from="1651143824815" duration="2001000" />
+      <workItem from="1651145880063" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
