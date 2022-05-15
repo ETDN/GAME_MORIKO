@@ -1,40 +1,40 @@
 /*import platform from '../img/test_jpeg.jpg'
 console.log(platform)*/
 
-const canvas = document.querySelector('canvas')
-const c = canvas.getContext('2d')
+const canvas = document.querySelector('canvas');
+const c = canvas.getContext('2d');
 
-canvas.width=innerWidth
-canvas.height=innerHeight
+canvas.width=innerWidth;
+canvas.height=innerHeight;
 
 
-const gravity =0.5
+const gravity =0.5;
 
 class Player {
   constructor() {
     this.position = {
       x:100,
       y:100
-    }
-    this.height=50
-    this.width=50
+    };
+    this.height=50;
+    this.width=50;
     this.velocity = {
       x:0,
       y:0
-    }
+    };
   }
   draw(){
-    c.fillStyle='black'
-    c.fillRect(this.position.x,this.position.y,this.width,this.height)
+    c.fillStyle='black';
+    c.fillRect(this.position.x,this.position.y,this.width,this.height);
   }
   update(){
-    this.draw()
-    this.position.x += this.velocity.x
-    this.position.y += this.velocity.y
+    this.draw();
+    this.position.x += this.velocity.x;
+    this.position.y += this.velocity.y;
 
     if(this.position.y + this.height + this.velocity.y <= canvas.height)
-    this.velocity.y += gravity
-    else this.velocity.y = 0
+    this.velocity.y += gravity;
+    else this.velocity.y = 0;
   }
 }
 
@@ -43,25 +43,25 @@ class Monster{
     this.position={
       x:200,
       y:100
-    }
+    };
     this.height=40, this.width=40
     this.velocity ={
       x:0,
       y:0
-    }
+    };
   }
   draw(){
-    c.fillStyle='red'
-    c.fillRect(this.position.x,this.position.y,this.width,this.height)
+    c.fillStyle='red';
+    c.fillRect(this.position.x,this.position.y,this.width,this.height);
   }
   update(){
     this.draw()
-    this.position.x += this.velocity.x
-    this.position.y += this.velocity.y
+    this.position.x += this.velocity.x;
+    this.position.y += this.velocity.y;
 
     if(this.position.y + this.height + this.velocity.y <= canvas.height)
-      this.velocity.y += gravity
-    else this.velocity.y = 0
+      this.velocity.y += gravity;
+    else this.velocity.y = 0;
   }
 }
 
