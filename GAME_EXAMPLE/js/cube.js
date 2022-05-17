@@ -1,67 +1,48 @@
 /*import platform from '../img/test_jpeg.jpg'
 console.log(platform)*/
 
-const canvas = document.querySelector('canvas')
-const c = canvas.getContext('2d')
+const canvas = document.querySelector('canvas');
+const c = canvas.getContext('2d');
+var monster = document.getElementById('monster');
 
-canvas.width=innerWidth
-canvas.height=innerHeight
+canvas.width=innerWidth;
+canvas.height=innerHeight;
 
 
-const gravity =1.5
+const gravity =1.5;
+
+/*let patternPlayer
+let img2=new Image();
+img2 = document.getElementById('player')
+pattern = c.createPattern(img2,'no-repeat');*/
 
 class Player {
   constructor() {
     this.position = {
       x:100,
       y:100
-    }
-    this.height=50
-    this.width=50
+    };
+    this.height=50;
+    this.width=50;
     this.velocity = {
       x:0,
       y:0
-    }
+    };
   }
   draw(){
-    c.fillStyle='black'
-    c.fillRect(this.position.x,this.position.y,this.width,this.height)
+    c.fillStyle='black';
+    c.fillRect(this.position.x,this.position.y,this.width,this.height);
   }
   update(){
-    this.draw()
-    this.position.x += this.velocity.x
-    this.position.y += this.velocity.y
+    this.draw();
+    this.position.x += this.velocity.x;
+    this.position.y += this.velocity.y;
 
     if(this.position.y + this.height + this.velocity.y <= canvas.height)
-    this.velocity.y += gravity
-    else this.velocity.y = 0
-  }
-}
+    this.velocity.y += gravity;
+    else this.velocity.y = 0;
 
-class Monster{
-  constructor() {
-    this.position={
-      x:200,
-      y:100
-    }
-    this.height=40, this.width=40
-    this.velocity ={
-      x:0,
-      y:0
-    }
-  }
-  draw(){
-    c.fillStyle='red'
-    c.fillRect(this.position.x,this.position.y,this.width,this.height)
-  }
-  update(){
-    this.draw()
-    this.position.x += this.velocity.x
-    this.position.y += this.velocity.y
 
-    if(this.position.y + this.height + this.velocity.y <= canvas.height)
-      this.velocity.y += gravity
-    else this.velocity.y = 0
   }
 }
 
@@ -75,8 +56,12 @@ const keys = {
   },
 }
 
-  /* ------- PLATFORMS CREATION----------------*/
+let pattern
+let img1=new Image();
+img1 = document.getElementById('platform')
+pattern = c.createPattern(img1,'no-repeat');
 
+  /* ------- PLATFORMS CREATION----------------*/
 class Platform{
   constructor({x,y}) {
     this.position = {
@@ -84,10 +69,10 @@ class Platform{
       y
     }
     this.width = 200
-    this.height = 30
+    this.height = 55
   }
   draw(){
-    c.fillStyle='darkgreen'
+    c.fillStyle=pattern;
     c.fillRect(this.position.x,this.position.y,this.width,this.height)
   }
 }
@@ -133,14 +118,12 @@ const platforms = [
 
   /* ------- PLAYER CREATION ----------- */
 const nezuko = new Player()
-const monster = new Monster()
 
   /* ------- ANIMATION METHOD ----------- */
 function animate() {
   requestAnimationFrame(animate)
   c.clearRect(0, 0, canvas.width, canvas.height)
   nezuko.update()
-  monster.update()
   platforms.forEach(platform =>{
     platform.draw()
   })
