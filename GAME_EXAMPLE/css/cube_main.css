@@ -10,4 +10,27 @@ body{
   height: 380px;
 }
 
+#monster{
+  width: 85px;
+  height: 100px;
+  top : -107px;
+  left : 300px;
+  position: relative;
+  background-image:url("/img/snake_monster.png");
+  animation: monster 3s infinite linear;
+}
+
+@keyframes monster {
+  0%{left:1250px;}
+  100%{right: -200px;}
+
+}
+
+#platform{
+  display: none;
+}
+
+#player{
+  display: none;
+}
 
