@@ -9,7 +9,7 @@ canvas.width=innerWidth;
 canvas.height=innerHeight;
 
 
-const gravity =1.5;
+const gravity =0.5;
 
 /*let patternPlayer
 let img2=new Image();
